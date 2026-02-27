@@ -39,7 +39,7 @@ class _IntroPageState extends State<IntroPage> {
                 duration: Duration(seconds: 2),
                 glowColor: Colors.white,
                 repeat: true,
-                startDelay: Duration(seconds: 1),
+                startDelay: Duration(milliseconds: 500),
                 child: CircleAvatar(
                   backgroundColor: Colors.grey[900],
                   radius: 80.0,
